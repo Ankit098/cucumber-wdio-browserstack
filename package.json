@@ -1,0 +1,22 @@
+{
+  "name": "cucumber-wdio-browserstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio conf/test.conf.js --parallel=false",
+    "test-parallel": "./node_modules/.bin/wdio conf/test.conf.js --parallel=true"
+  },
+  "author": "Ankit Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/browserstack-service": "7.25.0",
+    "@wdio/cli": "7.25.0",
+    "@wdio/cucumber-framework": "^7.25.0",
+    "@wdio/local-runner": "^7.25.0",
+    "wdio-cucumber-parallel-execution": "^3.6.7",
+    "webdriverio": "^7.25.0",
+    "yargs": "^17.5.1",
+    "node-emoji": "^1.11.0"
+  }
+}
